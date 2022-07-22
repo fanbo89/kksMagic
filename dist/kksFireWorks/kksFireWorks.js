@@ -60,9 +60,9 @@ console.info('曾经的灯塔上面\n他为她放的烟火\n倒映在江面\n—
             pAssetId: "kksFireWorksPattern", //爆炸形成的图案素材元素的id
             pScale: 1, //图案放缩大小，默认为原图像素单位，请不要使用太大像素的图片
             pRotationX: 90, //图案的x轴旋转角度，默认为竖直图片
-            pDuration: 500, //组成图案前需要多少毫秒
-            pLife: 2000, //图案粒子的生命时间，必须大于ptime才能形成图案
-            pLifeRand: 500, //随机值
+            pDuration: 1000, //组成图案前需要多少毫秒
+            pLife: 4000, //图案粒子的生命时间，必须大于ptime才能形成图案
+            pLifeRand: 1000, //随机值
             pHold: 0, //保持图形，不发散
 
             useTrail: 1, //是否使用爆炸拖尾
